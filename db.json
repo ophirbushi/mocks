@@ -1,0 +1,75 @@
+{
+    "mould": [{ "id": "0", "label": "0", "active": true, "reason": "" }, { "id": "1", "label": "1", "active": false, "reason": "" }, { "id": "2", "label": "2", "active": false, "reason": "" }, { "id": "3", "label": "3", "active": false, "reason": "" }, { "id": "4", "label": "4", "active": false, "reason": "" }, { "id": "5", "label": "5", "active": true, "reason": "" }, { "id": "6", "label": "6", "active": false, "reason": "" }, { "id": "7", "label": "7", "active": false, "reason": "" }, { "id": "8", "label": "8", "active": false, "reason": "" }, { "id": "9", "label": "9", "active": false, "reason": "" }, { "id": "10", "label": "10", "active": true, "reason": "" }, { "id": "11", "label": "11", "active": false, "reason": "" }, { "id": "12", "label": "12", "active": false, "reason": "" }, { "id": "13", "label": "13", "active": false, "reason": "" }, { "id": "14", "label": "14", "active": false, "reason": "" }, { "id": "15", "label": "15", "active": true, "reason": "" }, { "id": "16", "label": "16", "active": false, "reason": "" }, { "id": "17", "label": "17", "active": false, "reason": "" }, { "id": "18", "label": "18", "active": false, "reason": "" }, { "id": "19", "label": "19", "active": false, "reason": "" }, { "id": "20", "label": "20", "active": true, "reason": "" }, { "id": "21", "label": "21", "active": false, "reason": "" }, { "id": "22", "label": "22", "active": false, "reason": "" }, { "id": "23", "label": "23", "active": false, "reason": "" }, { "id": "24", "label": "24", "active": false, "reason": "" }, { "id": "25", "label": "25", "active": true, "reason": "" }, { "id": "26", "label": "26", "active": false, "reason": "" }, { "id": "27", "label": "27", "active": false, "reason": "" }, { "id": "28", "label": "28", "active": false, "reason": "" }, { "id": "29", "label": "29", "active": false, "reason": "" }, { "id": "30", "label": "30", "active": true, "reason": "" }, { "id": "31", "label": "31", "active": false, "reason": "" }],
+    "split": {
+        "split": {
+            "date": { "year": 2019, "month": 2, "day": 13 },
+            "time": { "hour": 21, "minute": 59 }
+        },
+        "downtime_reason_options": [{ "label": "Stoppage", "value": "Stoppage" }],
+        "downtime_info": "Line 1 15/03/2019 12:11 - 02/04/2019 09:39"
+    },
+    "gauge": {
+        "value": 580
+    },
+    "timeline": {
+        "data": {
+            "timespans": [
+                { "start": 12367487687673, "end": 12367487707673, "labelId": "1" },
+                { "start": 136876283682763, "end": 136876283892763, "labelId": "2" }
+            ],
+            "labels": [
+                { "color": "#ad42cc", "id": "1", "label": "Preprocess" },
+                { "color": "#c1223a", "id": "2", "label": "Work" }
+            ]
+        }
+    },
+    "oee": {
+        "percent": 14.5
+    },
+    "data": {
+        "labels": ["One", "Two", "Three", "Four", "Five"],
+        "datasets": [{
+                "label": "My First Dataset",
+                "data": [65, 59, 80, 81, 56],
+                "fill": true,
+                "backgroundColor": ["rgba(255, 199, 132, 0.2)"],
+                "borderColor": ["rgb(255, 199, 132)"],
+                "borderWidth": 1
+            },
+            {
+                "label": "My Second Dataset",
+                "data": [165, 159, 10, 11, 16],
+                "fill": false,
+                "backgroundColor": ["rgba(55, 199, 32, 0.2)"],
+                "borderColor": ["rgb(55, 199, 32)"],
+                "borderWidth": 1
+            }
+        ]
+    },
+    "components": {
+        "rows": [{
+            "id": "00001",
+            "actual": "a",
+            "addQuantity": "b",
+            "batch": "c",
+            "partName": "d",
+            "partNumber": "",
+            "plan": "",
+            "planCheckbox": "",
+            "save": "",
+            "uom": ""
+        }, {
+            "id": "00002",
+            "actual": "a",
+            "addQuantity": "b",
+            "batch": "c",
+            "partName": "d",
+            "partNumber": "",
+            "plan": "",
+            "planCheckbox": "",
+            "save": "",
+            "uom": ""
+        }]
+       
+    }
+}

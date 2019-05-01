@@ -1,0 +1,15 @@
+{
+    "order-start": {
+        "order_step_identity": "abc",
+        "part_name": "poc",
+        "previous_part_produced": "123",
+        "setup_types": [{
+            "label": "a",
+            "value": "a"
+        }, {
+            "label": "b",
+            "value": "b"
+        }],
+        "setup_standard": 0
+    }
+}
