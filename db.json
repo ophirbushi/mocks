@@ -10,66 +10,6 @@
     },
     "gauge": {
         "value": 580
-    },
-    "timeline": {
-        "data": {
-            "timespans": [
-                { "start": 12367487687673, "end": 12367487707673, "labelId": "1" },
-                { "start": 136876283682763, "end": 136876283892763, "labelId": "2" }
-            ],
-            "labels": [
-                { "color": "#ad42cc", "id": "1", "label": "Preprocess" },
-                { "color": "#c1223a", "id": "2", "label": "Work" }
-            ]
-        }
-    },
-    "oee": {
-        "percent": 14.5
-    },
-    "data": {
-        "labels": ["One", "Two", "Three", "Four", "Five"],
-        "datasets": [{
-                "label": "My First Dataset",
-                "data": [65, 59, 80, 81, 56],
-                "fill": true,
-                "backgroundColor": ["rgba(255, 199, 132, 0.2)"],
-                "borderColor": ["rgb(255, 199, 132)"],
-                "borderWidth": 1
-            },
-            {
-                "label": "My Second Dataset",
-                "data": [165, 159, 10, 11, 16],
-                "fill": false,
-                "backgroundColor": ["rgba(55, 199, 32, 0.2)"],
-                "borderColor": ["rgb(55, 199, 32)"],
-                "borderWidth": 1
-            }
-        ]
-    },
-    "components": {
-        "rows": [{
-            "id": "00001",
-            "actual": "a",
-            "addQuantity": "b",
-            "batch": "c",
-            "partName": "d",
-            "partNumber": "",
-            "plan": "",
-            "planCheckbox": "",
-            "save": "",
-            "uom": ""
-        }, {
-            "id": "00002",
-            "actual": "a",
-            "addQuantity": "b",
-            "batch": "c",
-            "partName": "d",
-            "partNumber": "",
-            "plan": "",
-            "planCheckbox": "",
-            "save": "",
-            "uom": ""
-        }]
-       
     }
+   
 }
